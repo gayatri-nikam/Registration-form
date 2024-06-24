@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>  
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Registration Form</h1>
+        </div>
+        <form id="form" action="/">
+
+            <div class="input-control">
+                <label>Username</label>
+                <input id="username" name="username" type="text" placeholder="Enter your full name" autocomplete="off">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error msg</small>
+            </div>
+            <div class="input-control">
+                <label>Email</label>
+                <input id="email" name="username" type="email" placeholder="Enter your Email" autocomplete="off">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error msg</small>
+            </div>
+            <div class="input-control">
+                <label>Mobile number</label>
+                <input id="phone" name="username" type="number" placeholder="Enter your mobile Number"
+                    autocomplete="off">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error msg</small>
+            </div>
+            <div class="input-control">
+                <label>Password</label>
+                <input id="password" name="username" type="password" placeholder="Enter password" autocomplete="off">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error msg</small>
+            </div>
+            <div class="input-control">
+                <label>Confirm password</label>
+                <input id="cpassword" name="username" type="password" placeholder="Confirm password" autocomplete="off">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error msg</small><br>
+            </div>
+            <input type="submit" value="Submit" class="btn">
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
