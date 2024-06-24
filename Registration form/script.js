@@ -76,7 +76,7 @@ const validate = () => {
         setSuccessMsg(phone);
     }
 
-    //phone validate
+    //password validate
     if (passwordVal === "") {
         setErrorMsg(password, 'Passward cannot be null');
     } else if (passwordVal.length < 5) {
@@ -85,11 +85,11 @@ const validate = () => {
     else {
         setSuccessMsg(password);
     }
-    //phone validate
+    //confirm password validate
     if (cpasswordVal === "") {
         setErrorMsg(cpassword, 'Passward cannot be null');
     } else if (cpasswordVal != passwordVal) {
-        setErrorMsg(cpassword, 'Passward should same');
+        setErrorMsg(cpassword, 'Passward should be same');
     }
     else {
         setSuccessMsg(cpassword);
